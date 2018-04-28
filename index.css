@@ -51,11 +51,14 @@ body{
 }
 
 .minipostcard{
-    width: 200px;
+    width: 150px;
     height: 150px;
     display: inline-block;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+	background-position: center;
+	margin: 2px;
+	
 }
 .mpcTo{
     position: absolute;
